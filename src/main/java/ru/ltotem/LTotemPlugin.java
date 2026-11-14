@@ -163,7 +163,7 @@ public class LTotemPlugin extends JavaPlugin implements Listener {
         if (isCustomTotem(player.getInventory().getItemInMainHand(), "healing")) {
             return "healing";
         }
-        if (isCustomTotem(player.getInventory().getItemMainHand(), "darkness")) {
+        if (isCustomTotem(player.getInventory().getItemInMainHand(), "darkness")) {
             return "darkness";
         }
 
