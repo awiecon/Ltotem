@@ -1,0 +1,15 @@
+name: LTotem
+version: 1.0.0
+main: ru.ltotem.LTotemPlugin
+api-version: '1.21.11'
+author: OpenAI
+description: Five configurable custom totems for Paper 1.21.11.
+commands:
+  ltotem:
+    description: Opens the custom totems menu.
+    usage: /ltotem
+    permission: ltotem.admin
+permissions:
+  ltotem.admin:
+    description: Allows opening the LTotem menu.
+    default: op

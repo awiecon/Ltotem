@@ -1,0 +1,57 @@
+# LTotem configuration
+# Potion duration values are in seconds. Use -1 for effectively infinite while held.
+# Potion amplifier: Minecraft level 1 = 0, level 2 = 1, etc.
+
+gui:
+  title: "&8Меню тотемов"
+  size: 27
+  filler-material: GRAY_STAINED_GLASS_PANE
+
+items:
+  resistance:
+    enabled: true
+    material: TOTEM_OF_UNDYING
+    name: "&6Тотем стойкости"
+    health-bonus: 4.0
+    effect:
+      type: DAMAGE_RESISTANCE
+      amplifier: 0
+      duration-seconds: -1
+    slot: 10
+
+  speed:
+    enabled: true
+    material: TOTEM_OF_UNDYING
+    name: "&bТотем скорости"
+    effect:
+      type: SPEED
+      amplifier: 0
+      duration-seconds: -1
+    slot: 12
+
+  judgment:
+    enabled: true
+    material: TOTEM_OF_UNDYING
+    name: "&5Судный тотем"
+    effect:
+      type: DAMAGE_RESISTANCE
+      amplifier: 3
+      duration-seconds: 20
+    slot: 14
+
+  healing:
+    enabled: true
+    material: TOTEM_OF_UNDYING
+    name: "&cТотем исцеления"
+    slot: 16
+
+  darkness:
+    enabled: true
+    material: TOTEM_OF_UNDYING
+    name: "&0Тотем тьмы"
+    effect:
+      type: DARKNESS
+      amplifier: 0
+      duration-seconds: 20
+    radius: 15.0
+    slot: 22
